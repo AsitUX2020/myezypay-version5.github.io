@@ -9,6 +9,9 @@ body{
     background-color: #f0f7ff;
     align-items: center;
     font-family: 'Noto Sans JP', sans-serif !important;
+    overflow-x: hidden;
+}.carousel-item{
+    height: 100vh;
 }
 .container-fluid{
     height: 100%;
@@ -93,6 +96,9 @@ body{
     vertical-align: middle;
     clear: both;
 }
+.content-group{
+    padding: 40px !important;
+}
 .micro-atm{
     bottom: 0;
 	width: 100%;
@@ -111,7 +117,7 @@ body{
 .logo-login{
     display: block;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -133,7 +139,7 @@ body{
     font-weight: normal;
 }
 .login-form{
-    padding-top: 16px;
+    padding-top: 20px;
 }
 .app-card{
     width: 100%;
@@ -170,9 +176,11 @@ body{
 .next{
     width: 40px !important;
     height: 40px !important;
+    border: none !important;
     border-radius: 50px !important;
     padding: 0 !important;
-    position: absolute;
+    position: relative;
+    margin: 0 !important;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 4px 12px 0 rgba(0, 0, 0, 0.19);
 }
 .next:focus{
@@ -293,6 +301,9 @@ body{
     padding-left: 4px;
 }
 @media (max-width:280px){
+    .content-group{
+        padding: 12px !important;
+    }
     .special-form{
         margin: 12px !important;
         padding: 0 !important;
@@ -344,6 +355,9 @@ body{
     }
     .join-us {
         line-height: 32px !important;
+    }
+    .content-group{
+        padding: 12px !important;
     }
     .special-form{
         margin: 20px !important;
@@ -411,6 +425,9 @@ body{
     }   
 }
 @media (max-width:360px){
+    .content-group{
+        padding: 12px !important;
+    }
     .download-app{
         font-size: 12px !important;
         text-align: left !important;
@@ -424,6 +441,9 @@ body{
     }
     .join-us {
         line-height: 32px !important;
+    }
+    .content-group{
+        padding: 12px !important;
     }
     .login-card{
         padding: 24px;
@@ -467,6 +487,9 @@ body{
     }
     .join-us {
         line-height: 32px !important;
+    }
+    .content-group{
+        padding: 12px !important;
     }
     .login-card{
         padding: 20px;
@@ -512,6 +535,9 @@ body{
     .join-us {
         line-height: 32px !important;
     }
+    .content-group{
+        padding: 12px !important;
+    }
     .login-card{
         padding: 24px;
     }
@@ -547,6 +573,9 @@ body{
     
 }
 @media (max-width:768px){
+    .content-group{
+        padding: 12px !important;
+    }
     .special-form{
         margin: 20px 0;
         width: 100%;
@@ -577,8 +606,8 @@ body{
     }
 }
 @media (max-width: 992px) {
-    .hero-content{
-        height: auto;
+    .content-group{
+        padding: 12px !important;
     }
     .special-form{
         margin: 20px 0;
@@ -620,6 +649,9 @@ body{
 }
 
 @media (max-width:1024px){
+    .content-group{
+        padding: 12px !important;
+    }
     .login-card{
         padding: 24px;
     }
@@ -649,6 +681,9 @@ body{
     
 }
 @media (max-width:1200px){
+    .content-group{
+        padding: 12px !important;
+    }
     .login-card{
         padding: 24px;
     }

@@ -459,16 +459,16 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 }
 @media (max-width:1200px){
   .form-group.label-floating label.control-label, .form-group.label-placeholder label.control-label {
-    font-size: 14px;
+    font-size: 16px;
   }
   .form-group.label-floating label.pace, .form-group.label-placeholder label.pace {
-    font-size: 14px;
+    font-size: 16px;
   }
   .form-group.label-floating label.capt, .form-group.label-placeholder label.capt {
-    font-size: 14px;
+    font-size: 16px;
   }
   .form-group label.control-label {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.0714285718;
     color: #2a3541;
     font-weight: 400;
